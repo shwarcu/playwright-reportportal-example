@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npx playwright install"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.25.0",
+    "@playwright/test": "^1.26.1",
     "@reportportal/agent-js-playwright": "^5.0.5",
-    "@types/node": "^18.7.2",
-    "playwright": "^1.26.1"
+    "@types/node": "^18.7.2"
   }
 }
